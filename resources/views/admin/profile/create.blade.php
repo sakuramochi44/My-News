@@ -3,16 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content=""width=device-width, initial-scale=1"">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>MyNews</title>
     </head>
     <body>
-        <h1>ニュース新規作成</h1>
+        <h1>プロフィール作成</h1>
     </body>
 </html>
 {{-- layouts/profile.blade.phpを読み込む --}}
 @extends('layouts.profile')
+
 
 
 {{-- profile.blade.phpの@yield('title')に'ニュースの新規作成'を埋め込む --}}
@@ -66,12 +67,9 @@
                         </div>
                     </div>
                     {{ csrf_field() }}
-                    <inrut type="submit" class="btn btn-primary" value="更新"></inrut>
-                    </div>
-                    </div>
-                    
-                    </div>
-                </form>
+                    <input type="submit" class="btn btn-primary" value="更新">
+
+               </form>
             </div>
         </div>
     </div>

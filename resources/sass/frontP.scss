@@ -1,0 +1,40 @@
+body {
+  color: #000;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+
+  th,td{
+    border: double 2px #2196f3;
+    text-align: center;
+   }
+   
+    .name {
+      font-size: 1.2em;
+      width: 150px;
+    　height: 30px;
+      margin-bottom: 60px;
+    }
+    .gender {
+      font-size: 1.2em;
+      width: 50px;
+      height: 30px;
+      margin-bottom: 60px;
+    }
+    .hobby {
+      font-size: 1.2em;
+      width: 300px;
+      height: 30px;
+      margin-bottom: 60px;
+    }
+    .introduction {
+      width: 300px;
+      height: 30px;
+      margin-bottom: 60px;
+      font-size: 1.2em; 
+    }
+    
+}  
+

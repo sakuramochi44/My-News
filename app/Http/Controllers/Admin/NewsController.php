@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 
 //　以下を追記する事でNews Modelが扱えるようになる
 use App\News;
-use App\N_History;
+use App\History;
 use Carbon\Carbon;
 
 class NewsController extends Controller
